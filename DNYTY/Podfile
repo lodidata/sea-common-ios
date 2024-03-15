@@ -1,0 +1,51 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '11.0'
+inhibit_all_warnings!
+target 'DNYTY' do
+  use_frameworks!
+  pod 'Hero' , :git => 'https://github.com/HeroTransitions/Hero.git'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxSwiftExt'
+  pod 'RxViewController'
+  pod "RxGesture"
+  pod 'NSObject+Rx'
+  pod 'SnapKit'         # 跟Masonry一样是用来设置约束的，swift版
+  pod 'SwiftyJSON'      # Json数据转换
+  pod 'Alamofire'       # 用于网络请求
+  pod 'RxAlamofire'
+  pod 'Moya/RxSwift'    # 用于网络请求
+  # pod 'Kingfisher'      # SDWebImage swift 版
+  pod 'RxDataSources'   # RxSwift中用于设置UITableView/UICollectionView data sources
+  pod 'MJRefresh'
+  pod 'MBProgressHUD'
+  pod 'YYCategories'
+  pod 'YYText'
+  pod 'IQKeyboardManager'
+  pod 'SDWebImage'
+  pod 'ObjectMapper'
+  pod 'SDCycleScrollView'
+  # pod 'EasyAnimation'
+  pod 'R.swift'
+  # pod 'CYLTabBarController', :modular_headers => true
+  # pod 'MMDrawerController'  #侧边菜单
+  # pod 'TYCyclePagerView'  
+  # pod 'CHIPageControl/Jalapeno'
+  pod 'FSPagerView' #轮播图
+  pod 'PagingViewKit', '~> 1.1.5'
+  pod 'SwiftDate'
+  pod 'Masonry'
+  pod 'PGDatePicker'
+  pod 'YYImage'
+  # pod 'Spring'
+  pod 'FSPagerView'
+  #pod 'RxFSPagerView'
+  #pod 'AAInfographics', :git => 'https://github.com/AAChartModel/AAChartKit-Swift.git'
+  pod 'LiveChat', '~> 2.0.24'
+  # Player with default control layer.
+  pod 'SJVideoPlayer'
+  # The base player, without the control layer, can be used if you need a custom control layer.
+  pod 'SJBaseVideoPlayer', :git => 'https://github.com/zkil/SJBaseVideoPlayer.git'
+  pod 'Charts'
+end
+
